@@ -2925,7 +2925,7 @@ function renderComments(_ref2, instance) {
   } else if (!comments.length) {
     var emptyBlock = document.createElement('div');
     emptyBlock.className = 'gitment-comments-empty';
-    emptyBlock.innerText = '暂无评论，来过就留点痕迹吧';
+    emptyBlock.innerText = '登录后才能查看已有评论哦，留下你的痕迹吧,不虚此行!';
     container.appendChild(emptyBlock);
     return container;
   }
@@ -3116,7 +3116,7 @@ function renderFooter() {
   var container = document.createElement('div');
   container.lang = "en-US";
   container.className = 'gitment-container gitment-footer-container';
-  container.innerHTML = '\n    由\n    <a class="gitment-footer-project-link" href="https://github.com/imsun/gitment" target="_blank">\n      Gitment\n    </a> 强力驱动\n · <a href="http://www.ikeguang.com/">柯广的博客</a> 汉化 ';
+  container.innerHTML = '\n    由\n    <a class="gitment-footer-project-link" href="https://github.com/imsun/gitment" target="_blank">\n      Gitment\n    </a> 强力驱动\n';
   return container;
 }
 
