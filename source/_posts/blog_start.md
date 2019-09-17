@@ -1,8 +1,9 @@
 ---
 title: 新的起点，新的开始
+categories: 自我
+abbrlink: c7aa237a
 date: 2019-09-17 02:12:19
 updated: 2019-09-17 02:12:19
-categories: 自我
 ---
 
 
